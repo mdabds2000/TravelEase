@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_const.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/view/screen/home/components/popularTruck_widget.dart';
-import 'package:truck_ease/src/view/screen/home/components/truck_location.dart';
-import 'package:truck_ease/src/view/screen/home/popularTrucks.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_const.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/view/screen/home/components/popularTruck_widget.dart';
+import 'package:travel_ease/src/view/screen/home/components/truck_location.dart';
+import 'package:travel_ease/src/view/screen/home/popularTrucks.dart';
 
 import 'add_vehicle_screen.dart';
 

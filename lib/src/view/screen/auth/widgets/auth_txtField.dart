@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_style.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_style.dart';
 
+// ignore: must_be_immutable
 class AuthField extends StatefulWidget {
   final TextEditingController controller;
   final String hintText;

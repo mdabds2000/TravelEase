@@ -1,6 +1,6 @@
 {
-    "name": "truck_ease",
-    "short_name": "truck_ease",
+    "name": "travel_ease",
+    "short_name": "travel_ease",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

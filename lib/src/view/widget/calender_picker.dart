@@ -2,10 +2,10 @@ import 'package:calendar_date_picker2/calendar_date_picker2.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/src/controller/app_controller.dart';
-import 'package:truck_ease/src/controller/location_controller.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/src/controller/app_controller.dart';
+import 'package:travel_ease/src/controller/location_controller.dart';
 
 class CalenderPickerWidget extends StatelessWidget {
   final AppController controller = Get.put(AppController());

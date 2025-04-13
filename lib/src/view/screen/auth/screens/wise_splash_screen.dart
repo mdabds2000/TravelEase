@@ -314,43 +314,6 @@ class _Delegate extends SingleChildLayoutDelegate {
   }
 }
 
-class _CirclePainter extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size size) {
-    final side = size.shortestSide;
-
-    final circlePaint = Paint()
-      ..style = PaintingStyle.fill
-      ..color = const Color(0xFF9FE870);
-
-    canvas.drawCircle(
-      Offset(side * 0.5, side * 0.5),
-      side * 0.5,
-      circlePaint,
-    );
-
-    final arrowPath = Path()
-      ..moveTo(side * 0.7156863, side * 0.4648235)
-      ..lineTo(side * 0.5, side * 0.2529510)
-      ..lineTo(side * 0.2843137, side * 0.4648235)
-      ..moveTo(side * 0.5, side * 0.7470392)
-      ..lineTo(side * 0.5, side * 0.2745098);
-
-    final arrowPaint = Paint()
-      ..style = PaintingStyle.stroke
-      ..color = const Color(0xFF163300)
-      ..strokeJoin = StrokeJoin.round
-      ..strokeWidth = side / 15 - 2.8;
-
-    canvas.drawPath(arrowPath, arrowPaint);
-  }
-
-  @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    return true;
-  }
-}
-
 class _Track {
   const _Track._({
     required this.path,

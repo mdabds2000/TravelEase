@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_const.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/view/screen/history/screens/track_order.dart';
-import 'package:truck_ease/src/view/screen/home/components/appbar.dart';
-import 'package:truck_ease/src/view/widget/card.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_const.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/view/screen/history/screens/track_order.dart';
+import 'package:travel_ease/src/view/screen/home/components/appbar.dart';
+import 'package:travel_ease/src/view/widget/card.dart';
 
 class LiveTrackingScreen extends StatelessWidget {
   const LiveTrackingScreen({super.key});

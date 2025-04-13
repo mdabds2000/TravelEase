@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/src/model/popularTrucks_model.dart';
-import 'package:truck_ease/src/view/screen/home/components/truck_detail_widget.dart';
+import 'package:travel_ease/src/model/popularTrucks_model.dart';
+import 'package:travel_ease/src/view/screen/home/components/truck_detail_widget.dart';
 
 class TruckDetailScreen extends StatelessWidget {
   final PopularTruckModel truckModel;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_style.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_style.dart';
 
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final String title;

@@ -4,10 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/src/controller/user_controller.dart';
-import 'package:truck_ease/src/view/bottom.dart';
-import 'package:truck_ease/src/view/screen/auth/screens/app_loader.dart';
-import 'package:truck_ease/src/view/screen/splash/splash.dart';
+import 'package:travel_ease/src/controller/user_controller.dart';
+import 'package:travel_ease/src/view/screen/splash/splash.dart';
 
 import 'core/service_locator.dart';
 

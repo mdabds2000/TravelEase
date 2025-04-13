@@ -5,12 +5,12 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_const.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/controller/location_controller.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_const.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/controller/location_controller.dart';
 
 class SearchLocationWidget extends StatelessWidget {
   const SearchLocationWidget({

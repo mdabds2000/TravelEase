@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:truck_ease/src/model/Login.dart';
-import 'package:truck_ease/src/model/otp_verification.dart';
-import 'package:truck_ease/src/model/register.dart';
+import 'package:travel_ease/src/model/Login.dart';
+import 'package:travel_ease/src/model/otp_verification.dart';
+import 'package:travel_ease/src/model/register.dart';
 
 import '../core/app_const.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:truck_ease/src/model/popularTrucks_model.dart';
+import 'package:travel_ease/src/model/popularTrucks_model.dart';
 
 const String baseURL =
-    "https://ec74-2402-3a80-4273-2483-e99b-c0c8-98bf-1c1e.ngrok-free.app/api";
+    "https://9879-2401-4900-1ce1-450e-e854-7d27-2405-f6e9.ngrok-free.app/api";
 
 const String baseURLRegister = "$baseURL/company.php";
 const String baseURLLogin = "$baseURL/login.php";

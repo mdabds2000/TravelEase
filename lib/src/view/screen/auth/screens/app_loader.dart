@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:truck_ease/src/view/screen/auth/screens/wise_splash_screen.dart';
+import 'package:travel_ease/src/view/screen/auth/screens/wise_splash_screen.dart';
 
 import '../../../../controller/user_controller.dart';
 import '../../splash/onboarding.dart';

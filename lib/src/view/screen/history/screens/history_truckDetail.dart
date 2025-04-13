@@ -4,17 +4,17 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_const.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/view/screen/history/screens/chat.dart';
-import 'package:truck_ease/src/view/screen/history/screens/live_tracking.dart';
-import 'package:truck_ease/src/view/screen/home/components/appbar.dart';
-import 'package:truck_ease/src/view/widget/app_button.dart';
-import 'package:truck_ease/src/view/widget/card.dart';
-import 'package:truck_ease/src/view/widget/delete_dialogue.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_const.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/view/screen/history/screens/chat.dart';
+import 'package:travel_ease/src/view/screen/history/screens/live_tracking.dart';
+import 'package:travel_ease/src/view/screen/home/components/appbar.dart';
+import 'package:travel_ease/src/view/widget/app_button.dart';
+import 'package:travel_ease/src/view/widget/card.dart';
+import 'package:travel_ease/src/view/widget/delete_dialogue.dart';
 
 class HistoryTruckDetailScreen extends StatelessWidget {
   const HistoryTruckDetailScreen({super.key});

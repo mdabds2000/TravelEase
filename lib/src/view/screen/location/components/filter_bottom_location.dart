@@ -4,17 +4,17 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_const.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/controller/app_controller.dart';
-import 'package:truck_ease/src/controller/location_controller.dart';
-import 'package:truck_ease/src/view/screen/auth/widgets/auth_txtField.dart';
-import 'package:truck_ease/src/view/widget/app_button.dart';
-import 'package:truck_ease/src/view/widget/calender_picker.dart';
-import 'package:truck_ease/src/view/widget/time_picker.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_const.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/controller/app_controller.dart';
+import 'package:travel_ease/src/controller/location_controller.dart';
+import 'package:travel_ease/src/view/screen/auth/widgets/auth_txtField.dart';
+import 'package:travel_ease/src/view/widget/app_button.dart';
+import 'package:travel_ease/src/view/widget/calender_picker.dart';
+import 'package:travel_ease/src/view/widget/time_picker.dart';
 
 class FilterLocationBottomWidget extends StatefulWidget {
   const FilterLocationBottomWidget({super.key});

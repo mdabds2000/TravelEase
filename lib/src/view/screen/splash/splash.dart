@@ -4,7 +4,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:truck_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_asset.dart';
 import '../../../../core/app_style.dart';
 import '../../bottom.dart';
 import '../auth/screens/login.dart';
@@ -41,35 +41,35 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-          height: 100.h,
-          width: 100.w,
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Color(0xff003A3E),
-                Color(0xff99BBBD),
-              ],
-              stops: [.7, 1],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
+      height: 100.h,
+      width: 100.w,
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            Color(0xff003A3E),
+            Color(0xff99BBBD),
+          ],
+          stops: [.7, 1],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          SvgPicture.asset(
+            AppAsset.splashIcon,
+            width: 100,
+            height: 100,
           ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              SvgPicture.asset(
-                AppAsset.splashIcon,
-                width: 100,
-                height: 100,
-              ),
-              const SizedBox(height: 30),
-              Text(
-                'Travel Ease',
-                style: h1Style.copyWith(
-                    color: Colors.white, fontWeight: FontWeight.w500),
-              )
-            ],
-          ),
-        ));
+          const SizedBox(height: 30),
+          Text(
+            'Travel Ease',
+            style: h1Style.copyWith(
+                color: Colors.white, fontWeight: FontWeight.w500),
+          )
+        ],
+      ),
+    ));
   }
 }

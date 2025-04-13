@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_asset.dart';
 
 class AuthButton extends StatelessWidget {
   final Color? bgColor;

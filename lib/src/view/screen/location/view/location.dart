@@ -3,14 +3,14 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/core/app_const.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/controller/location_controller.dart';
-import 'package:truck_ease/src/view/screen/location/components/filter_bottom_location.dart';
-import 'package:truck_ease/src/view/screen/location/search_txtfield.dart';
-import 'package:truck_ease/src/view/screen/location/view/search.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/core/app_const.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/controller/location_controller.dart';
+import 'package:travel_ease/src/view/screen/location/components/filter_bottom_location.dart';
+import 'package:travel_ease/src/view/screen/location/search_txtfield.dart';
+import 'package:travel_ease/src/view/screen/location/view/search.dart';
 
 class LocationScreen extends StatefulWidget {
   const LocationScreen({Key? key}) : super(key: key);

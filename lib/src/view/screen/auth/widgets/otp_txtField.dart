@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/core/app_color.dart';
 
 class OtpTextField extends StatefulWidget {
   final TextEditingController controller;

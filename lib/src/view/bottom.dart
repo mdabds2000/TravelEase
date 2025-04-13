@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_color.dart';
-import 'package:truck_ease/src/controller/bottom_controller.dart';
-import 'package:truck_ease/src/view/screen/history/screens/history.dart';
-import 'package:truck_ease/src/view/screen/home/home.dart';
-import 'package:truck_ease/src/view/screen/location/view/location.dart';
-import 'package:truck_ease/src/view/screen/notification/screens/notifications.dart';
-import 'package:truck_ease/src/view/screen/profile/screen/profile.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_color.dart';
+import 'package:travel_ease/src/controller/bottom_controller.dart';
+import 'package:travel_ease/src/view/screen/history/screens/history.dart';
+import 'package:travel_ease/src/view/screen/home/home.dart';
+import 'package:travel_ease/src/view/screen/location/view/location.dart';
+import 'package:travel_ease/src/view/screen/notification/screens/notifications.dart';
+import 'package:travel_ease/src/view/screen/profile/screen/profile.dart';
 
 class CustomBottomBar extends StatelessWidget {
   final BottomController bottomController = Get.put(BottomController());

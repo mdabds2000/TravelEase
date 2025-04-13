@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:truck_ease/src/model/chat_model.dart';
+import 'package:travel_ease/src/model/chat_model.dart';
 
 class ChatController extends GetxController {
   var messages = <ChatModel>[].obs;

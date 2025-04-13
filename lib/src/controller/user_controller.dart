@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:truck_ease/src/model/user_model.dart';
+import 'package:travel_ease/src/model/user_model.dart';
 
 var currentUser = UserModel(
   uid: "1",

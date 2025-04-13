@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:truck_ease/src/controller/user_controller.dart';
+import 'package:travel_ease/src/controller/user_controller.dart';
 
 class ProfileController extends GetxController {
   var nameController = TextEditingController();

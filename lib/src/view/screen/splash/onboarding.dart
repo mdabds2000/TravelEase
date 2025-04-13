@@ -3,11 +3,11 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:truck_ease/core/app_asset.dart';
-import 'package:truck_ease/core/app_style.dart';
-import 'package:truck_ease/extension/extension_sizebox.dart';
-import 'package:truck_ease/src/view/screen/auth/screens/choose_auth.dart';
-import 'package:truck_ease/src/view/widget/app_button.dart';
+import 'package:travel_ease/core/app_asset.dart';
+import 'package:travel_ease/core/app_style.dart';
+import 'package:travel_ease/extension/extension_sizebox.dart';
+import 'package:travel_ease/src/view/screen/auth/screens/choose_auth.dart';
+import 'package:travel_ease/src/view/widget/app_button.dart';
 
 import '../auth/screens/login.dart';
 
